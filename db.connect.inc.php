@@ -1,0 +1,10 @@
+<?php
+//define("MysqlHost","localhost");
+//define("MysqlDB","parsers");
+//define("MysqlUser","2");
+//define("MysqlPWD","password");
+define("MysqlHost","localhost");
+define("MysqlDB","shanyuk_report");
+define("MysqlUser","arti_test");
+define("MysqlPWD","test");
+?>
