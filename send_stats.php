@@ -10,7 +10,7 @@ if(!$isCLI)
     echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />';
 
 $data = new data_reviever();;
-$mail = new sender('kirnevartem30@gmail.com',  $data->title, $data->text);
+$mail = new sender('pm@accbox.info',  $data->title, $data->text);
 $mail->send();
 
 ?>

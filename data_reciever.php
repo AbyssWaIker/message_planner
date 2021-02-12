@@ -148,7 +148,7 @@ class data_reviever
         else $value =  $this->view_days($value);
 
         GLOBAL $statuses;
-        $res = '<tr style="color: #3e3d3d"><td>'.$statuses[$status].'</td><td>'.$value.'</td></tr>';
+        $res = '<tr style="color: #3e3d3d"><td>'.$this->statuses[$status].'</td><td>'.$value.'</td></tr>';
 
         return $res;
 
